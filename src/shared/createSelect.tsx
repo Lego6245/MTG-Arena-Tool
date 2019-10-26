@@ -50,11 +50,13 @@ export function createSelect(
     options: string[],
     current: string,
     callback: (option: string) => void,
-    divClass: string,
+    divClass?: string,
     optionFormatter?: (option: string) => string | JSX.Element,
 ): JSX.Element {
     // We create this container outside the component to ensure wherever we're rendering doens't get blanked.
-    const selectContainer = createDiv(["select_container", divClass]);
+    const divClasses = ["select_container"]
+    divClass && divClasses.push(divClass);
+    const selectContainer = createDiv(divClasses);
     selectContainer.id = divClass;
     parent.appendChild(selectContainer);
   

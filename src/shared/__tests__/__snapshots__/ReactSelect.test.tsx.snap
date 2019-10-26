@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReactSelect renders the baseline 1`] = `
+<div
+  className="select_container foo"
+  id="foo"
+>
+  <button
+    className="button_reset select_button"
+    onClick={[Function]}
+  >
+    Emerald
+  </button>
+</div>
+`;
+
+exports[`ReactSelect renders the newly selected option 1`] = `
+<div
+  className="select_container foo"
+  id="foo"
+>
+  <button
+    className="button_reset select_button"
+    onClick={[Function]}
+  >
+    Red
+  </button>
+</div>
+`;
+
+exports[`ReactSelect renders the options when clicked 1`] = `
+<div
+  className="select_container foo"
+  id="foo"
+>
+  <button
+    className="button_reset select_button active"
+    onClick={[Function]}
+  >
+    Emerald
+  </button>
+  <div
+    className="select_options_container"
+  >
+    <button
+      className="button_reset select_option"
+      onClick={[Function]}
+      value="Red"
+    >
+      Red
+    </button>
+    <button
+      className="button_reset select_option"
+      onClick={[Function]}
+      value="Blue"
+    >
+      Blue
+    </button>
+    <button
+      className="button_reset select_option"
+      onClick={[Function]}
+      value="Yellow"
+    >
+      Yellow
+    </button>
+    <button
+      className="button_reset select_option"
+      onClick={[Function]}
+      value="Gold"
+    >
+      Gold
+    </button>
+    <button
+      className="button_reset select_option"
+      onClick={[Function]}
+      value="Silver"
+    >
+      Silver
+    </button>
+    <button
+      className="button_reset select_option"
+      onClick={[Function]}
+      value="Platinum"
+    >
+      Platinum
+    </button>
+    <button
+      className="button_reset select_option"
+      onClick={[Function]}
+      value="Ruby"
+    >
+      Ruby
+    </button>
+    <button
+      className="button_reset select_option"
+      onClick={[Function]}
+      value="Saphire"
+    >
+      Saphire
+    </button>
+  </div>
+</div>
+`;
